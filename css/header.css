@@ -1,0 +1,160 @@
+/* stylesheet for this project */
+body {
+	background: rgb(192,192,192) ;
+}
+/* the header */
+#table_6 {
+	margin-left: 20px;
+	width: 800px;
+	text-align: center;
+}
+/* side is the container of table 1 */
+#side {
+	background: rgb(0, 128, 192);
+	margin-left: 120px;
+	width: 150px;
+	height: 300px;
+	float: left;
+}
+#table_1 {
+	background-color: rgb(0, 128, 192);
+	width: 150px;
+	float: left;
+}
+#table_1 td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#table_1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#table_1 a:hover {
+	background: rgb(0, 128, 192);
+	opacity: 0.3;
+	color: black;
+}
+#table_2 {
+	align:center;
+	margin-left: 15px;
+	border:1px solid lightgray;
+}
+#table_2 th {
+	background-color: lightgray;
+}
+#table_2 td {
+	border:1px solid lightgray;
+}
+/* the middle part */
+#body_index {
+	width: 600px;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	margin-left: 120px;
+	text-align: center;
+}
+#body_index a{
+	text-decoration: none;
+	color: red;
+}
+#body_index h3 {
+	color: rgb(0, 128, 192);
+	padding-left: 15px;
+	text-align: left;
+}
+/* the middle part */
+#body_search_index {
+	width: 600px;
+	padding-bottom: 100px;
+	background: white;
+	margin-left: 120px;
+}
+#body_search_index a{
+	text-decoration: none;
+	color: red;
+	margin-left: 250px;
+}
+#body_search_index h3 {
+	color: rgb(0, 128, 192);
+	padding-left: 15px;
+}
+#body_search_index p {
+	padding-left: 60px;
+}
+
+/* the middle part */
+#body_account_index {
+	width: 600px;
+	padding-bottom: 100px;
+	background: white;
+	margin-left: 120px;
+	margin-top: -20px;
+}
+#body_account_index a{
+	text-decoration: none;
+	color: red;
+	margin-left: 250px;
+}
+#body_account_index h3 {
+	color: rgb(0, 128, 192);
+	padding-left: 15px;
+}
+#body_account_index p {
+	padding-left: 60px;
+}
+/* the footer */
+#table_3 {
+	width: 600px;
+	margin-top: 5px;
+	margin-left: 120px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	background-color: rgb(0, 128, 192);
+}
+#table_3 p {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#table_3 a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+#table_3 a:hover {
+	background: rgb(0, 128, 192);
+	opacity: 0.3;
+	color: black;
+}
+/* log out */
+#logout {
+	
+	position:absolute;
+	left:550px;
+	top:100px;
+	color: white;
+	width: 200px;
+}
+#logout a {
+	text-decoration: none;
+	color: red;
+}
+/* welcome message */
+#welcome {
+	width: 455px;
+	height: 300px;
+	background: white;
+	margin-top: -19px;
+	margin-left: 265px;
+	text-align: center;
+}
+#welcome h3 {
+	padding-top: 10px;
+	color: rgb(0, 128, 192);
+}
